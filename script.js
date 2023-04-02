@@ -33,6 +33,7 @@ THREEAR.initialize({ source: source }).then((controller) => {
 
         },
     );
+    
     // add a torus knot		
     var geometry = new THREE.TorusKnotGeometry(0.3, 0.1, 64, 16);
     var material = new THREE.MeshNormalMaterial();
